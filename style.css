@@ -5,18 +5,20 @@
 html, body{
 	width: 100%;
 	height: 100%;
+	background:url(slika1.jpg) no-repeat;
+	background-size: cover;
 }
 body {
 	font-family: 'Bledek'; 
-	background:url(slika1.jpg) no-repeat;
-	background-size: cover;
+
 	}
 .naslov{
 	margin-left:43%;
 }
 .lab{
-	margin-left:33%;
-	margin-top:-2%;
+	margin: 0 auto;
+	width: 405px;
+	height: 405px;
 	
 }
 .morskipes{
@@ -26,9 +28,8 @@ body {
 .oblak{
 	height:250px;
 	width:250px;
-	margin-left:40%;
-	margin-top:-100%;
-	
+	margin-left:45%;
+	margin-top:-8%;
 	
 	
 }
@@ -36,10 +37,30 @@ body {
   width: 200px;
   height: 200px;
   margin-left:-12%;
-  margin-top:-100%;
+  margin-top:-8%;
   background-color: transparent;
   border-color: transparent;
   border:2px, solid black;
  
+}
+.sonce{
+	width:200px;
+	height:200px;
+	margin-top:-2%;
+	margin-left:5%;
+}
+.divdez{
+	margin-top:-2%;
+}
+.lonec{
+	height:200px;
+	width:200px;
+	margin-top:8%;
+	margin-left:49%;
+	
+}
+.wda{
+	height:1000px;
+	width:1000px;
 }
 	
