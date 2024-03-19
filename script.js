@@ -363,12 +363,12 @@ function drawPath() {
 
 
 function changeImage() {
-    const zarnicaImage = document.getElementById("luc");
+    const lonecImage = document.getElementById("lonec");
      
-    zarnicaImage.style.height = "150px";
-    zarnicaImage.style.width = "135px";
-	zarnicaImage.style.marginLeft = "38%";
-	zarnicaImage.src = "slike/zarnica.png";
+    lonecImage.style.height = "200px";
+    lonecImage.style.width = "200px";
+	lonecImage.style.marginLeft = "49%";
+	lonecImage.src = "slika122.png";
 }
 
 
@@ -418,6 +418,10 @@ function changeImage() {
 }
 }
 
-const resetButton = document.getElementById("yellow");
-resetButton.addEventListener("click", erasePath);
+function reload(){
+	location.reload();
+}
+
+const resetButton = document.getElementById("sonce");
+resetButton.addEventListener("click", window.location.reload());
 
